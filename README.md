@@ -1,4 +1,4 @@
-# Umur Alpay Blockchain Explorer Challange for Bitwala
+# Umur Alpay Blockchain Explorer Challange
 
 This project consists of 2 applications (Frontend and Backend). UI is built with React and backend is built with [NodeJS + Express](https://github.com/developit/express-es6-rest-api). I tried to complete the challenge in 2-3 hours,  so there are some missing opportunities to make the application in a better shape.
 
