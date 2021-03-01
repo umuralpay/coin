@@ -1,0 +1,29 @@
+{
+  "name": "umur-alpay-coding-challenge",
+  "version": "1.0.0",
+  "description": "This project consists of 2 applications (Frontend and Backend). UI is built with React and backend is built with [NodeJS + Express](https://github.com/developit/express-es6-rest-api)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-frontend": "cd ./frontend && npm install",
+    "install-backend": "cd ./backend && npm install",
+    "install": "npm run install-frontend && npm run install-backend",
+    "api": "cd ./backend && npm run dev",
+    "ui": "cd ./frontend && npm start",
+    "start": "concurrently 'npm run api' 'npm run ui'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitwalaCareers/Umur-Alpay-Coding-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BitwalaCareers/Umur-Alpay-Coding-Challenge/issues"
+  },
+  "homepage": "https://github.com/BitwalaCareers/Umur-Alpay-Coding-Challenge#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "concurrently": "^6.0.0"
+  }
+}
